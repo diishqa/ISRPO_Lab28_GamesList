@@ -21,6 +21,18 @@ public static class GamesStore {
             Genre = "Action-adventure",
             ReleaseYear = 2004,
         },
+        new Game {
+            Id=4,
+            Title = "Alice: Madness Returns",
+            Genre = "Action-adventure",
+            ReleaseYear = 2011,
+        },
+        new Game {
+            Id=5,
+            Title = "Syberia",
+            Genre = "Point-and-click",
+            ReleaseYear = 2002,
+        },
     };
     public static int NextId() => _nextId++;
 }
